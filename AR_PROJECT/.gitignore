@@ -1,0 +1,36 @@
+# Ignore Unity auto-generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Ignore Visual Studio files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Ignore Rider IDE files
+.idea/
+*.iml
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+.DS_Store?
+
+# Ignore Unity cache files
+/obj/
+*.swp
+*.tmp
+
+# Ignore UserSettings
+UserSettings/
