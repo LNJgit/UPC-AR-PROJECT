@@ -60,12 +60,13 @@ public class Pen : MonoBehaviour
         if (currentDrawing == null)
         {
             index = 0;
-            currentDrawing = new GameObject().AddComponent<LineRenderer>();
+            currentDrawing = new GameObject("DrawingObject").AddComponent<LineRenderer>();
             currentDrawing.material = drawingMaterial;
             currentDrawing.startColor = currentDrawing.endColor = penColors[currentColorIndex];
             currentDrawing.startWidth = currentDrawing.endWidth = penWidth;
             currentDrawing.positionCount = 1;
             currentDrawing.SetPosition(0, tip.transform.position);
+            currentDrawing.tag = "DrawingObject"; // Aquí le asignas el tag
         }
         else
         {
