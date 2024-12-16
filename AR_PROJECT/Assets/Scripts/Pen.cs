@@ -28,8 +28,15 @@ public class Pen : MonoBehaviour
 
     private void Start()
     {
+        if (penColors == null || penColors.Length == 0)
+        {
+            Debug.LogError("penColors no está configurado o está vacío. Por favor, añade colores en el Inspector.");
+            return;
+        }
+
         currentColorIndex = 0;
         tipMaterial.color = penColors[currentColorIndex];
+        Debug.Log($"Colores inicializados correctamente: {penColors.Length} colores detectados.");
     }
 
     private void Update()
@@ -55,15 +62,15 @@ public class Pen : MonoBehaviour
             FinalizeDrawing();
         }
 
-        if (OVRInput.GetDown(OVRInput.Button.One))
+        /*if (OVRInput.GetDown(OVRInput.Button.One))
         {
             SwitchColor();
-        }
+        }*/
 
-        if (OVRInput.GetDown(OVRInput.Button.Two))
+        /*if (OVRInput.GetDown(OVRInput.Button.Two))
         {
             ToggleDrawingMode();
-        }
+        }*/
     }
 
     private bool IsNearSurface(out Vector3 hitPosition)
@@ -99,12 +106,17 @@ public class Pen : MonoBehaviour
         GameObject lineObject = new GameObject($"DrawingObject_{Time.time}");
         currentDrawing = lineObject.AddComponent<LineRenderer>();
         currentDrawing.material = drawingMaterial;
-        currentDrawing.startColor = currentDrawing.endColor = penColors[currentColorIndex];
+
+        // Asegura que la punta y la línea tengan siempre el mismo color
+        Color currentColor = penColors[currentColorIndex];
+        currentDrawing.startColor = currentDrawing.endColor = currentColor;
+        tipMaterial.color = currentColor;
+
         currentDrawing.startWidth = currentDrawing.endWidth = penWidth;
-        currentDrawing.useWorldSpace = true; // Ensure the line sticks to world positions
+        currentDrawing.useWorldSpace = true;
         currentDrawing.tag = "DrawingObject";
 
-        currentLinePoints.Clear(); // Reset the list of points for the new line
+        currentLinePoints.Clear();
     }
 
     private void FinalizeDrawing()
@@ -114,9 +126,92 @@ public class Pen : MonoBehaviour
 
     private void SwitchColor()
     {
+        if (penColors == null || penColors.Length == 0)
+        {
+            Debug.LogError("penColors no está configurado. No se puede cambiar el color. PRIVATE");
+            return;
+        }
+
+        // Este log ayuda a depurar si el método se llama inesperadamente
+        Debug.Log($"SwitchColor llamado manualmente. Índice actual: {currentColorIndex}");
+
         currentColorIndex = (currentColorIndex + 1) % penColors.Length;
         tipMaterial.color = penColors[currentColorIndex];
+        Debug.Log($"Color cambiado a índice {currentColorIndex}: {penColors[currentColorIndex]}");
     }
+
+    public void SwitchColors()
+    {
+        if (penColors == null || penColors.Length == 0)
+        {
+            Debug.LogError("penColors no está configurado. No se puede cambiar el color. PUBLIC");
+            return;
+        }
+        
+
+        // Este log ayuda a depurar si el método se llama inesperadamente
+        Debug.Log($"SwitchColor llamado manualmente. Índice actual: {currentColorIndex}");
+
+        currentColorIndex = (currentColorIndex + 1) % penColors.Length;
+        tipMaterial.color = penColors[currentColorIndex];
+        Debug.Log($"Color cambiado a índice {currentColorIndex}: {penColors[currentColorIndex]}");
+    }
+
+    public void SwitchColorToBlue()
+    {
+        if (penColors == null || penColors.Length == 0)
+        {
+            Debug.LogError("penColors no está configurado. No se puede cambiar el color. PUBLIC");
+            return;
+        }
+        
+
+        // Este log ayuda a depurar si el método se llama inesperadamente
+        Debug.Log($"SwitchColor llamado manualmente. Índice actual: {currentColorIndex}");
+
+        currentColorIndex = 0;
+        tipMaterial.color = penColors[currentColorIndex];
+        Debug.Log($"Color cambiado a índice {currentColorIndex}: {penColors[currentColorIndex]}");
+    }
+
+    public void SwitchColorToBlack()
+    {
+        if (penColors == null || penColors.Length == 0)
+        {
+            Debug.LogError("penColors no está configurado. No se puede cambiar el color. PUBLIC");
+            return;
+        }
+        
+
+        // Este log ayuda a depurar si el método se llama inesperadamente
+        Debug.Log($"SwitchColor llamado manualmente. Índice actual: {currentColorIndex}");
+
+        currentColorIndex = 1;
+        tipMaterial.color = penColors[currentColorIndex];
+        Debug.Log($"Color cambiado a índice {currentColorIndex}: {penColors[currentColorIndex]}");
+    }
+
+
+    public void SwitchColorToRed()
+    {
+        if (penColors == null || penColors.Length == 0)
+        {
+            Debug.LogError("penColors no está configurado. No se puede cambiar el color. PUBLIC");
+            return;
+        }
+        else
+        {
+            Debug.LogError("penColors está configurado. . PUBLIC" + penColors.Length);
+        }
+
+        // Este log ayuda a depurar si el método se llama inesperadamente
+        Debug.Log($"SwitchColor llamado manualmente. Índice actual: {currentColorIndex}");
+
+        currentColorIndex = 2;
+        tipMaterial.color = penColors[currentColorIndex];
+        Debug.Log($"Color cambiado a índice {currentColorIndex}: {penColors[currentColorIndex]}");
+    }
+
 
     private void ToggleDrawingMode()
     {
