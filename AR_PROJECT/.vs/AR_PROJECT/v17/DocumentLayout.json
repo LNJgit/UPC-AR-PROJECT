@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\var\\Documents\\AR\\UPC-AR-PROJECT\\AR_PROJECT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9A2B9DB-644C-90E2-A605-DCAC140A0155}|Assembly-CSharp.csproj|c:\\users\\var\\documents\\ar\\upc-ar-project\\ar_project\\assets\\scripts\\pen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9A2B9DB-644C-90E2-A605-DCAC140A0155}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\var\\Documents\\AR\\UPC-AR-PROJECT\\AR_PROJECT\\Library\\PackageCache\\com.meta.xr.sdk.interaction@71.0.0\\Runtime\\Sample\\Scripts\\AudioTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.meta.xr.sdk.interaction@71.0.0\\Runtime\\Sample\\Scripts\\AudioTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9A2B9DB-644C-90E2-A605-DCAC140A0155}|Assembly-CSharp.csproj|c:\\users\\var\\documents\\ar\\upc-ar-project\\ar_project\\assets\\scripts\\menuhandgesture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A2B9DB-644C-90E2-A605-DCAC140A0155}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuhandgesture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9A2B9DB-644C-90E2-A605-DCAC140A0155}|Assembly-CSharp.csproj|C:\\Users\\var\\Documents\\AR\\UPC-AR-PROJECT\\AR_PROJECT\\assets\\scripts\\eraser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9A2B9DB-644C-90E2-A605-DCAC140A0155}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\eraser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9A2B9DB-644C-90E2-A605-DCAC140A0155}|Assembly-CSharp.csproj|C:\\Users\\var\\Documents\\AR\\UPC-AR-PROJECT\\AR_PROJECT\\assets\\metaxrtabletopgames_resources-master\\video_resources\\scripts\\exitbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9A2B9DB-644C-90E2-A605-DCAC140A0155}|Assembly-CSharp.csproj|solutionrelative:assets\\metaxrtabletopgames_resources-master\\video_resources\\scripts\\exitbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9A2B9DB-644C-90E2-A605-DCAC140A0155}|Assembly-CSharp.csproj|c:\\users\\var\\documents\\ar\\upc-ar-project\\ar_project\\assets\\scripts\\pen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A2B9DB-644C-90E2-A605-DCAC140A0155}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\var\\Documents\\AR\\UPC-AR-PROJECT\\AR_PROJECT\\Library\\PackageCache\\com.meta.xr.sdk.interaction@71.0.0\\Runtime\\Sample\\Scripts\\AudioTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.meta.xr.sdk.interaction@71.0.0\\Runtime\\Sample\\Scripts\\AudioTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "MenuHandGesture.cs",
+              "DocumentMoniker": "C:\\Users\\var\\Documents\\AR\\UPC-AR-PROJECT\\AR_PROJECT\\Assets\\Scripts\\MenuHandGesture.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuHandGesture.cs",
+              "ToolTip": "C:\\Users\\var\\Documents\\AR\\UPC-AR-PROJECT\\AR_PROJECT\\Assets\\Scripts\\MenuHandGesture.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MenuHandGesture.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T18:08:13.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AudioTrigger.cs",
               "DocumentMoniker": "C:\\Users\\var\\Documents\\AR\\UPC-AR-PROJECT\\AR_PROJECT\\Library\\PackageCache\\com.meta.xr.sdk.interaction@71.0.0\\Runtime\\Sample\\Scripts\\AudioTrigger.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.meta.xr.sdk.interaction@71.0.0\\Runtime\\Sample\\Scripts\\AudioTrigger.cs",
@@ -38,45 +51,33 @@
               "RelativeToolTip": "Library\\PackageCache\\com.meta.xr.sdk.interaction@71.0.0\\Runtime\\Sample\\Scripts\\AudioTrigger.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAAADYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T16:10:16.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T16:10:16.401Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Pen.cs",
               "DocumentMoniker": "C:\\Users\\var\\Documents\\AR\\UPC-AR-PROJECT\\AR_PROJECT\\Assets\\Scripts\\Pen.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Pen.cs",
               "ToolTip": "C:\\Users\\var\\Documents\\AR\\UPC-AR-PROJECT\\AR_PROJECT\\Assets\\Scripts\\Pen.cs",
               "RelativeToolTip": "Assets\\Scripts\\Pen.cs",
-              "ViewState": "AgIAAJoAAAAAAAAAAAAswKgAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBMAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T14:59:46.234Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Eraser.cs",
               "DocumentMoniker": "C:\\Users\\var\\Documents\\AR\\UPC-AR-PROJECT\\AR_PROJECT\\Assets\\Scripts\\Eraser.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Eraser.cs",
               "ToolTip": "C:\\Users\\var\\Documents\\AR\\UPC-AR-PROJECT\\AR_PROJECT\\Assets\\Scripts\\Eraser.cs",
               "RelativeToolTip": "Assets\\Scripts\\Eraser.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T14:43:20.448Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ExitButton.cs",
-              "DocumentMoniker": "C:\\Users\\var\\Documents\\AR\\UPC-AR-PROJECT\\AR_PROJECT\\Assets\\MetaXRTableTopGames_Resources-master\\Video_Resources\\Scripts\\ExitButton.cs",
-              "RelativeDocumentMoniker": "Assets\\MetaXRTableTopGames_Resources-master\\Video_Resources\\Scripts\\ExitButton.cs",
-              "ToolTip": "C:\\Users\\var\\Documents\\AR\\UPC-AR-PROJECT\\AR_PROJECT\\Assets\\MetaXRTableTopGames_Resources-master\\Video_Resources\\Scripts\\ExitButton.cs",
-              "RelativeToolTip": "Assets\\MetaXRTableTopGames_Resources-master\\Video_Resources\\Scripts\\ExitButton.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T11:33:22.039Z"
+              "WhenOpened": "2024-12-10T14:43:20.448Z",
+              "EditorCaption": ""
             }
           ]
         }
